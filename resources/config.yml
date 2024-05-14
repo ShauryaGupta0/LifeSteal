@@ -1,0 +1,4 @@
+# Configuration file for LifeSteal plugin
+
+# Maximum heart limit
+max_heart_limit: 20

@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/ShauryaGupta0/LifeSteal_API5.0.0
+build-by-default: true
+branches:
+- main
+projects:
+  LifeSteal_API5.0.0:
+    path: ""
+...

@@ -1,0 +1,9 @@
+---
+name: LifeSteal
+version: 1.0.0
+api: [5.0.0]
+author: ShauryaGupta06
+main: ShauryaGupta06\LifeSteal\Main
+
+
+---

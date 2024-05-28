@@ -40,13 +40,13 @@ class Main extends PluginBase implements Listener{
             $player->setMaxHealth($maxHeartLimit);
         }
         
-        $player->setMaxHealth($maxHealth - 1);
+        $player->setMaxHealth($maxHealth - 2);
 
         $lastDamageCause = $player->getLastDamageCause();
         if($lastDamageCause instanceof EntityDamageByEntityEvent){
             $entity = $lastDamageCause->getEntity();
             if($entity instanceof Player){
-                $entity->setMaxHealth($entity->getMaxHealth() + 1);
+                $entity->setMaxHealth($entity->getMaxHealth() + 2);
             }
         }
         if($player->getMaxHealth() === 0){
